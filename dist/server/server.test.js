@@ -73,6 +73,13 @@ describe('CDSServer class', () => {
         });
         http.close(done);
     });
+    it('should listen on a default port', (done) => {
+        const server = new _1.default();
+        const http = server.listen({}, () => {
+            expect(true).toBeTruthy();
+        });
+        http.close(done);
+    });
     it('should listen respond to discovery endpoint requests', (done) => {
         const server = new _1.default();
         const myService = new service_1.default(mockServiceDefinition, mockHandler);

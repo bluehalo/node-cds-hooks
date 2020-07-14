@@ -12,7 +12,7 @@ export default class CDSServer {
     constructor(cdsServerConfig?: CDSServerConfig | undefined);
     registerService(service: Service, discoveryEndpoint?: string): CDSServer;
     listen({ port, discoveryEndpoint }: {
-        port: number;
+        port?: number;
         discoveryEndpoint?: string;
     }, callback?: (args: any) => void): Server;
 }
