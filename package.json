@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/Asymmetrik/node-cds-hooks/"
   },
   "keywords": [
-    "Hello",
-    "Greeter"
+    "CDS Hooks",
+    "FHIR"
   ],
   "license": "MIT",
   "bugs": {
@@ -34,6 +34,9 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "npm run lint && npm test"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
