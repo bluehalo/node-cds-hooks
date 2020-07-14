@@ -1,6 +1,8 @@
 # Node CDS Hooks
 
-This is a framework for making CDS Hooks applications -- APIs that serve Cards to providers within EHRs.
+![Build Status](https://travis-ci.org/Asymmetrik/node-cds-hooks.svg?branch=master)
+
+A framework for making CDS Hooks applications -- APIs that serve Cards to providers within EHRs.
 
 ## Getting started
 
