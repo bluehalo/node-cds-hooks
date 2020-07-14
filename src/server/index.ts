@@ -80,7 +80,7 @@ export default class CDSServer {
     {
       port = 3000,
       discoveryEndpoint = DISCOVERY_ENDPOINT
-    }: { port: number; discoveryEndpoint?: string },
+    }: { port?: number; discoveryEndpoint?: string },
     callback?: (args: any) => void
   ): Server {
     this.app.get(discoveryEndpoint, (_, res) =>
