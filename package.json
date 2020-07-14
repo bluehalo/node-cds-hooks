@@ -1,6 +1,6 @@
 {
   "name": "@asymmetrik/node-cds-hooks",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A framework for creating NodeJS CDS Hooks applications",
   "directories": {
     "doc": "doc"
