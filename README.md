@@ -58,3 +58,12 @@ app.listen({ port }, () => {
   logger.info('Application listening on port: ' + port);
 }
 ```
+
+After your app is running, query your discovery endpoint.
+
+```sh
+curl http://localhost:9000/cds-services
+{"services":[{"hook":"patient-view","name":"CDS Service Starter Patient View","description":"An example of a CDS Service that displays \"Hello World!\"","id":"cds-service-starter-patient-view","prefetch":{"patient":"Patient/{{context.patientId}}"}}]}
+```
+
+You're up and running!
