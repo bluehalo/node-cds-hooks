@@ -49,7 +49,7 @@ const handler = (req) => {
 const app = new CDSServer();
 
 // Create the service
-const service = new CDSService(definition,  handler);
+const service = new Service(definition,  handler);
 
 // Register the service
 app.registerService(service);
