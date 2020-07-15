@@ -35,9 +35,6 @@
       "pre-push": "npm run lint && npm test"
     }
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
