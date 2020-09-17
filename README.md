@@ -9,7 +9,7 @@ A framework for making CDS Hooks applications -- APIs that serve Cards to provid
 Install node-cds-hooks as an npm module and save it to your package.json as a dependency
 
 ```sh
-npm i s @asymmetrik/node-cds-hooks
+npm i @asymmetrik/node-cds-hooks
 ```
 
 ## Example Usage
